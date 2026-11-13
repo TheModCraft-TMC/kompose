@@ -30,7 +30,7 @@ import (
 	"github.com/kubernetes/kompose/pkg/testutils"
 	"github.com/pkg/errors"
 	appsv1 "k8s.io/api/apps/v1"
-	hpa "k8s.io/api/autoscaling/v2beta2"
+	hpa "k8s.io/api/autoscaling/v2"
 	api "k8s.io/api/core/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
